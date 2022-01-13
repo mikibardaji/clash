@@ -16,6 +16,16 @@ public class CartasClashRoyale {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        String[] cartas = new String[15];
+        
+        asigno_cartas2(args);
     }
     
+    private static void asigno_cartas2(String[] cartas) {
+        cartas[3] = "Guerrero0profe";
+        cartas[4] = "Guerrero1profe";
+        cartas[5] = "Guerrero2profe";
+    }
 }
