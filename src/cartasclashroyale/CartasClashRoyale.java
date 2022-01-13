@@ -22,7 +22,7 @@ public class CartasClashRoyale {
         String[] cartas = new String[15];
 
         asigno_cartas(cartas);        
-        asigno_cartas2(args);
+        asigno_cartas2(cartas);
 
         
 
